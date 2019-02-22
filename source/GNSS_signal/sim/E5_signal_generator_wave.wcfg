@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/nameg/Dropbox/Phd/GNSS-VHDL/E5_signal_generator_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="e5_signal_generator_tb" />
+            <top_module name="math_real" />
+            <top_module name="numeric_std" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_signed" />
+            <top_module name="std_logic_textio" />
+            <top_module name="textio" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="32" />
+   <wvobject fp_name="/e5_signal_generator_tb/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/e5_signal_generator_tb/rst" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/e5_signal_generator_tb/uut/addr" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">addr</obj_property>
+      <obj_property name="ObjectShortName">addr</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/e5_signal_generator_tb/prn" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">prn[3:0]</obj_property>
+      <obj_property name="ObjectShortName">prn[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff00ff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/e5_signal_generator_tb/uut/strobe_in" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">strobe_in</obj_property>
+      <obj_property name="ObjectShortName">strobe_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/e5_signal_generator_tb/uut/addr" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">addr</obj_property>
+      <obj_property name="ObjectShortName">addr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/e5_signal_generator_tb/addr_new_aux" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">addr_new_aux</obj_property>
+      <obj_property name="ObjectShortName">addr_new_aux</obj_property>
+   </wvobject>
+   <wvobject fp_name="/e5_signal_generator_tb/addr_new" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">addr_new</obj_property>
+      <obj_property name="ObjectShortName">addr_new</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider140" type="divider">
+      <obj_property name="label">New Divider</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">128 128 255</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="/e5_signal_generator_tb/uut/prn_d5" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">prn_d5[3:0]</obj_property>
+      <obj_property name="ObjectShortName">prn_d5[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff00ff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/e5_signal_generator_tb/uut/prn_d3" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">prn_d3[3:0]</obj_property>
+      <obj_property name="ObjectShortName">prn_d3[3:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff00ff</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/e5_signal_generator_tb/uut/cont" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">cont</obj_property>
+      <obj_property name="ObjectShortName">cont</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/e5_signal_generator_tb/uut/t" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">t[2:0]</obj_property>
+      <obj_property name="ObjectShortName">t[2:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffff00</obj_property>
+   </wvobject>
+   <wvobject fp_name="/e5_signal_generator_tb/uut/t_new" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">t_new[2:0]</obj_property>
+      <obj_property name="ObjectShortName">t_new[2:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffff00</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/e5_signal_generator_tb/uut/t_regular" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">t_regular[2:0]</obj_property>
+      <obj_property name="ObjectShortName">t_regular[2:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffff00</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/e5_signal_generator_tb/uut/decod" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">decod[2:0]</obj_property>
+      <obj_property name="ObjectShortName">decod[2:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffa500</obj_property>
+   </wvobject>
+   <wvobject fp_name="/e5_signal_generator_tb/uut/e5i" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">e5i[7:0]</obj_property>
+      <obj_property name="ObjectShortName">e5i[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#008000</obj_property>
+   </wvobject>
+   <wvobject fp_name="/e5_signal_generator_tb/e5q" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">e5q[7:0]</obj_property>
+      <obj_property name="ObjectShortName">e5q[7:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#008000</obj_property>
+   </wvobject>
+   <wvobject fp_name="/e5_signal_generator_tb/uut/strobe_in" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">strobe_in</obj_property>
+      <obj_property name="ObjectShortName">strobe_in</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/e5_signal_generator_tb/uut/strobe_out" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">strobe_out</obj_property>
+      <obj_property name="ObjectShortName">strobe_out</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider52" type="divider">
+      <obj_property name="label">New Divider</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">128 128 255</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="/e5_signal_generator_tb/uut/addr_decoder_inst/addr_decoded" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">addr_decoded[2:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_decoded[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/e5_signal_generator_tb/uut/addr_decoder_inst/addr_coded" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">addr_coded</obj_property>
+      <obj_property name="ObjectShortName">addr_coded</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider20" type="divider">
+      <obj_property name="label">Constants</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">128 128 255</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="/e5_signal_generator_tb/uut/alfa" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">alfa[7:0]</obj_property>
+      <obj_property name="ObjectShortName">alfa[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff0000</obj_property>
+   </wvobject>
+   <wvobject fp_name="/e5_signal_generator_tb/uut/m" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">m</obj_property>
+      <obj_property name="ObjectShortName">m</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff0000</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/e5_signal_generator_tb/uut/l0" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">l0</obj_property>
+      <obj_property name="ObjectShortName">l0</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff0000</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/e5_signal_generator_tb/uut/x" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">x</obj_property>
+      <obj_property name="ObjectShortName">x</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff0000</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/e5_signal_generator_tb/uut/l_x" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">l_x</obj_property>
+      <obj_property name="ObjectShortName">l_x</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff0000</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/e5_signal_generator_tb/uut/n" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">n</obj_property>
+      <obj_property name="ObjectShortName">n</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff0000</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/e5_signal_generator_tb/uut/l_m" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">l_m</obj_property>
+      <obj_property name="ObjectShortName">l_m</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff0000</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/e5_signal_generator_tb/uut/t_x" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">t_x</obj_property>
+      <obj_property name="ObjectShortName">t_x</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff0000</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>

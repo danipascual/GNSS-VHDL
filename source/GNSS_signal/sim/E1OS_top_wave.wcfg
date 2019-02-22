@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/nameg/Dropbox/Phd/GNSS-VHDL/E1OS_top_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="e1os_top_tb" />
+            <top_module name="math_real" />
+            <top_module name="numeric_std" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_signed" />
+            <top_module name="std_logic_textio" />
+            <top_module name="std_logic_unsigned" />
+            <top_module name="textio" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="29" />
+   <wvobject fp_name="/e1os_top_tb/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/e1os_top_tb/rst" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/e1os_top_tb/enable" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">enable</obj_property>
+      <obj_property name="ObjectShortName">enable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/e1os_top_tb/sat" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">sat</obj_property>
+      <obj_property name="ObjectShortName">sat</obj_property>
+   </wvobject>
+   <wvobject fp_name="/e1os_top_tb/strobe_in" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">strobe_in</obj_property>
+      <obj_property name="ObjectShortName">strobe_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/e1os_top_tb/strobe_out" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">strobe_out</obj_property>
+      <obj_property name="ObjectShortName">strobe_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/e1os_top_tb/epoch" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">epoch</obj_property>
+      <obj_property name="ObjectShortName">epoch</obj_property>
+   </wvobject>
+   <wvobject fp_name="/e1os_top_tb/e1os" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">e1os[7:0]</obj_property>
+      <obj_property name="ObjectShortName">e1os[7:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider13" type="divider">
+      <obj_property name="label">uut</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">128 128 255</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="/e1os_top_tb/uut/strobe_prn" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">strobe_prn</obj_property>
+      <obj_property name="ObjectShortName">strobe_prn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/e1os_top_tb/uut/strobe_boc" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">strobe_boc</obj_property>
+      <obj_property name="ObjectShortName">strobe_boc</obj_property>
+   </wvobject>
+   <wvobject fp_name="/e1os_top_tb/uut/prn" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">prn[1:0]</obj_property>
+      <obj_property name="ObjectShortName">prn[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/e1os_top_tb/uut/epoch_prn" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">epoch_prn</obj_property>
+      <obj_property name="ObjectShortName">epoch_prn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/e1os_top_tb/uut/valid_prn" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">valid_prn</obj_property>
+      <obj_property name="ObjectShortName">valid_prn</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider21" type="divider">
+      <obj_property name="label">E1_generator</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">128 128 255</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="/e1os_top_tb/uut/E1_generator_inst/sat" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">sat</obj_property>
+      <obj_property name="ObjectShortName">sat</obj_property>
+   </wvobject>
+   <wvobject fp_name="/e1os_top_tb/uut/E1_generator_inst/enable" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">enable</obj_property>
+      <obj_property name="ObjectShortName">enable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/e1os_top_tb/uut/E1_generator_inst/epoch" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">epoch</obj_property>
+      <obj_property name="ObjectShortName">epoch</obj_property>
+   </wvobject>
+   <wvobject fp_name="/e1os_top_tb/uut/E1_generator_inst/valid_out" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">valid_out</obj_property>
+      <obj_property name="ObjectShortName">valid_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/e1os_top_tb/uut/E1_generator_inst/addr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">addr[16:0]</obj_property>
+      <obj_property name="ObjectShortName">addr[16:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/e1os_top_tb/uut/E1_generator_inst/addr_ref" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">addr_ref[16:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_ref[16:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider21" type="divider">
+      <obj_property name="label">E1OS_signal_generator</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">128 128 255</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="/e1os_top_tb/uut/E1OS_signal_generator_inst/strobe_in" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">strobe_in</obj_property>
+      <obj_property name="ObjectShortName">strobe_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/e1os_top_tb/uut/E1OS_signal_generator_inst/prn" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">prn[1:0]</obj_property>
+      <obj_property name="ObjectShortName">prn[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/e1os_top_tb/uut/E1OS_signal_generator_inst/strobe_out" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">strobe_out</obj_property>
+      <obj_property name="ObjectShortName">strobe_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/e1os_top_tb/uut/E1OS_signal_generator_inst/e1os" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">e1os[7:0]</obj_property>
+      <obj_property name="ObjectShortName">e1os[7:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider38" type="divider">
+      <obj_property name="label">New Divider</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">128 128 255</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="/e1os_top_tb/uut/strobe_Gen_Sync_inst/signals_to_delay" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">signals_to_delay[1:0]</obj_property>
+      <obj_property name="ObjectShortName">signals_to_delay[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/e1os_top_tb/uut/strobe_Gen_Sync_inst/signals_delayed" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">signals_delayed[1:0]</obj_property>
+      <obj_property name="ObjectShortName">signals_delayed[1:0]</obj_property>
+   </wvobject>
+</wave_config>

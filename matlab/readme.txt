@@ -1,0 +1,1 @@
+Go to https://github.com/danipascual/GNSS-matlab for the Matlab codes that generate the GNSS prns and signals

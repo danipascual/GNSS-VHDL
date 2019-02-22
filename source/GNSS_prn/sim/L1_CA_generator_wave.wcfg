@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/nameg/Dropbox/Phd/GNSS-VHDL/L1_CA_generator_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="l1_ca_generator_tb" />
+            <top_module name="math_real" />
+            <top_module name="numeric_std" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_textio" />
+            <top_module name="std_logic_unsigned" />
+            <top_module name="textio" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="18" />
+   <wvobject fp_name="/l1_ca_generator_tb/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#008000</obj_property>
+   </wvobject>
+   <wvobject fp_name="/l1_ca_generator_tb/rst" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff0000</obj_property>
+   </wvobject>
+   <wvobject fp_name="/l1_ca_generator_tb/enable" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">enable</obj_property>
+      <obj_property name="ObjectShortName">enable</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/l1_ca_generator_tb/sat" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">sat</obj_property>
+      <obj_property name="ObjectShortName">sat</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/l1_ca_generator_tb/valid_out" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">valid_out</obj_property>
+      <obj_property name="ObjectShortName">valid_out</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/l1_ca_generator_tb/prn" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">prn</obj_property>
+      <obj_property name="ObjectShortName">prn</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ff00</obj_property>
+   </wvobject>
+   <wvobject fp_name="/l1_ca_generator_tb/epoch" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">epoch</obj_property>
+      <obj_property name="ObjectShortName">epoch</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider10" type="divider">
+      <obj_property name="label">uut</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">128 128 255</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="/l1_ca_generator_tb/uut/enable_lsfr" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">enable_lsfr</obj_property>
+      <obj_property name="ObjectShortName">enable_lsfr</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/l1_ca_generator_tb/uut/enable_lsfr_d" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">enable_lsfr_d</obj_property>
+      <obj_property name="ObjectShortName">enable_lsfr_d</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/l1_ca_generator_tb/uut/lsfr_valid" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">lsfr_valid</obj_property>
+      <obj_property name="ObjectShortName">lsfr_valid</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/l1_ca_generator_tb/uut/g1_out" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">g1_out</obj_property>
+      <obj_property name="ObjectShortName">g1_out</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ff00</obj_property>
+   </wvobject>
+   <wvobject fp_name="/l1_ca_generator_tb/uut/g2_out" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">g2_out</obj_property>
+      <obj_property name="ObjectShortName">g2_out</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ff00</obj_property>
+   </wvobject>
+   <wvobject fp_name="/l1_ca_generator_tb/uut/sat" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">sat</obj_property>
+      <obj_property name="ObjectShortName">sat</obj_property>
+   </wvobject>
+   <wvobject fp_name="/l1_ca_generator_tb/uut/output_ca_g2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">output_ca_g2[9:0]</obj_property>
+      <obj_property name="ObjectShortName">output_ca_g2[9:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff00ff</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider25" type="divider">
+      <obj_property name="label">G1</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">128 128 255</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="/l1_ca_generator_tb/uut/G1_gen/enable" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">enable</obj_property>
+      <obj_property name="ObjectShortName">enable</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/l1_ca_generator_tb/uut/G1_gen/valid" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">valid</obj_property>
+      <obj_property name="ObjectShortName">valid</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffffff</obj_property>
+   </wvobject>
+</wave_config>
